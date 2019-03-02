@@ -1,35 +1,44 @@
+/*****************************************************
+ * Personal Blogger Template Style
+ * Name: Startinhit Professional Template for Blogspot Version 3.0
+ * Update:  01/03/2019
+ * Design by: Nguyễn Tuấn
+ * Redesign by: Nguyễn Tỉnh
+ * URL:       www.nguyentinhblog.com
+ * Email: tuantinh00030@gmail.com
+*****************************************************/
 <!-- Constants -->
 
-<Variable name="damionRegular36" description="Damion Regular 36" type="font" default="400 36px Damion,cursive" hideEditor="true"  value="400 36px Damion,cursive"/>
-<Variable name="damionRegular62" description="Damion Regular 62" type="font" default="400 62px Damion,cursive" hideEditor="true"  value="400 62px Damion,cursive"/>
-<Variable name="playfairDisplayBlack28" description="Playfair Display Black 28" type="font" default="900 28px Playfair Display,serif" hideEditor="true"  value="900 28px Playfair Display,serif"/>
-<Variable name="playfairDisplayBlack36" description="Playfair Display Black 36" type="font" default="900 36px Playfair Display,serif" hideEditor="true"  value="900 36px Playfair Display,serif"/>
-<Variable name="playfairDisplayBlack44" description="Playfair Display Black 44" type="font" default="900 44px Playfair Display,serif" hideEditor="true"  value="900 44px Playfair Display,serif"/>
-<Variable name="robotoNormal15" description="Roboto Normal 15" type="font" default="15px Roboto,sans-serif" hideEditor="true"  value="15px Roboto,sans-serif"/>
-<Variable name="robotoNormal16" description="Roboto Normal 16" type="font" default="16px Roboto,sans-serif" hideEditor="true"  value="16px Roboto,sans-serif"/>
-<Variable name="robotoLightItalic15" description="Roboto Light Italic 15" type="font" default="italic 300 15px Roboto,sans-serif" hideEditor="true"  value="italic 300 15px Roboto,sans-serif"/>
-<Variable name="robotoBold22" description="Roboto Bold 22" type="font" default="bold 22px Roboto,sans-serif" hideEditor="true"  value="bold 22px Roboto,sans-serif"/>
-<Variable name="robotoBold30" description="Roboto Bold 30" type="font" default="bold 30px Roboto,sans-serif" hideEditor="true"  value="bold 30px Roboto,sans-serif"/>
-<Variable name="robotoBold45" description="Roboto Bold 45" type="font" default="bold 45px Roboto,sans-serif" hideEditor="true"  value="bold 45px Roboto,sans-serif"/>
+<Variable name="damionRegular36" description="Damion Regular 36" type="font" default="400 36px Damion, cursive" hideEditor="true"  value="400 36px Damion, cursive"/>
+<Variable name="damionRegular62" description="Damion Regular 62" type="font" default="400 62px Damion, cursive" hideEditor="true"  value="400 62px Damion, cursive"/>
+<Variable name="playfairDisplayBlack28" description="Playfair Display Black 28" type="font" default="900 28px Playfair Display, serif" hideEditor="true"  value="900 28px Playfair Display, serif"/>
+<Variable name="playfairDisplayBlack36" description="Playfair Display Black 36" type="font" default="900 36px Playfair Display, serif" hideEditor="true"  value="900 36px Playfair Display, serif"/>
+<Variable name="playfairDisplayBlack44" description="Playfair Display Black 44" type="font" default="900 44px Playfair Display, serif" hideEditor="true"  value="900 44px Playfair Display, serif"/>
+<Variable name="robotoNormal15" description="Roboto Normal 15" type="font" default="15px Roboto, sans-serif" hideEditor="true"  value="15px Roboto, sans-serif"/>
+<Variable name="robotoNormal16" description="Roboto Normal 16" type="font" default="16px Roboto, sans-serif" hideEditor="true"  value="16px Roboto, sans-serif"/>
+<Variable name="robotoLightItalic15" description="Roboto Light Italic 15" type="font" default="italic 300 15px Roboto, sans-serif" hideEditor="true"  value="italic 300 15px Roboto, sans-serif"/>
+<Variable name="robotoBold22" description="Roboto Bold 22" type="font" default="bold 22px Roboto, sans-serif" hideEditor="true"  value="bold 22px Roboto, sans-serif"/>
+<Variable name="robotoBold30" description="Roboto Bold 30" type="font" default="bold 30px Roboto, sans-serif" hideEditor="true"  value="bold 30px Roboto, sans-serif"/>
+<Variable name="robotoBold45" description="Roboto Bold 45" type="font" default="bold 45px Roboto, sans-serif" hideEditor="true"  value="bold 45px Roboto, sans-serif"/>
 
 <!-- Variable definitions -->
 
 <Group description="Body">
   <Variable name="body.background.color" description="Body background color" type="color" default="#f7f7f7"  value="#f7f7f7"/>
   <Variable name="body.background" description="Background" type="background" color="#f7f7f7" default="$(color) none repeat scroll top left"  value="$(color) none repeat scroll top left"/>
-  <Variable name="body.text.font" description="Font" type="font" default="$(generalFont)"  value="400 16px Ubuntu,sans-serif"/>
+  <Variable name="body.text.font" description="Font" type="font" default="$(generalFont)"  value="400 16px Ubuntu, sans-serif"/>
   <Variable name="body.text.color" description="Color" type="color" default="#484848"  value="#484848"/>
   <Variable name="body.link.color" description="Link color" type="color" default="$(keycolor)"  value="#00a26d"/>
   <Variable name="body.link.visited.color" description="Visited Link Color" type="color" default="$(body.link.color)"  value="#7759ae"/>
   <Variable name="body.link.hover.color" description="Link Hover Color" type="color" default="$(body.link.color)"  value="#3b78e7"/>
-  <Variable name="body.button.font" description="Button font" type="font" default="$(textButtonFont)"  value="500 12px Ubuntu,sans-serif"/>
+  <Variable name="body.button.font" description="Button font" type="font" default="$(textButtonFont)"  value="500 12px Ubuntu, sans-serif"/>
   <Variable name="body.button.color" description="Button color" type="color" default="$(keycolor)"  value="#00a26d"/>
 </Group>
 
 <Group description="Posts" selector="div.widget.Blog">
   <Variable name="posts.background.color" description="Post background color" type="color" default="#fff"  value="transparent"/>
   <Variable name="posts.title.color" description="Post title color" type="color" default="#212121"  value="#212121"/>
-  <Variable name="posts.title.font" description="Post title font" type="font" default="$(titleFont)"  value="500 24px Ubuntu,sans-serif"/>
+  <Variable name="posts.title.font" description="Post title font" type="font" default="$(titleFont)"  value="500 24px Ubuntu, sans-serif"/>
   <Variable name="posts.byline.color" description="Post byline color" type="color" default="#757575"  value="#757575"/>
   <Variable name="posts.byline.font" description="Post byline font" type="font" default="$(bylineFont)"  value="italic 400 12px Roboto,sans-serif"/>
   <Variable name="posts.text.font" description="Post text font" type="font" default="$(bodyFont)"  value="400 16px Roboto,sans-serif"/>
@@ -44,7 +53,7 @@
   <Variable name="postFilter.message.font" description="Filter text font" type="font" default="$(postFilterFont)"  value="italic 400 18px Roboto,sans-serif"/>
   <Variable name="postFilter.message.color" description="Filter text color" type="color" default="$(posts.background.color)"  value="#ffffff"/>
   <Variable name="postFilter.message.link.color" description="Filter keyword color" type="color" default="$(postFilter.message.color)"  value="#ffffff"/>
-  <Variable name="labels.font" description="Label font size" type="font" default="$(labelsFont)"  value="500 10.5px Ubuntu,sans-serif"/>
+  <Variable name="labels.font" description="Label font size" type="font" default="$(labelsFont)"  value="500 10.5px Ubuntu, sans-serif"/>
 </Group>
  */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -135,7 +144,7 @@ svg{fill:hsl(0,0%,53.3%)}
 .bg_Se .gb_Se{display:inline-block;position:relative;min-width:600px;background-color:rgba(0,0,0,.15);-webkit-border-radius:25px;border-radius:25px;-webkit-transition:background 100ms ease-in,width 100ms ease-out;transition:background 100ms ease-in,width 100ms ease-out}
 .bg_Se .gb_Se.gb_af{border-radius:5px}
 .bg_Se input{background:transparent;font-family:Roboto,Arial,sans-serif;font-size:16px;line-height:36px;padding-left:55px;width:100%;color:#f7f7f7;border:0;outline:none}
-.bg_Se input::placeholder{color:#f7f7f7;opacity:1}
+.bg_Se input::placeholder{color: #f7f7f7;opacity: 1}
 .bg_Se button{width:50px;border:0;background:transparent;cursor:pointer;position:absolute;top:0;line-height:36px;outline:none;padding:1px 0}
 .bg_Se .Se{float:left}
 .bg_Se button svg{vertical-align:middle;width:23px;height:23px}
@@ -154,7 +163,7 @@ svg{fill:hsl(0,0%,53.3%)}
 .main-wrapper{width:69.7%;float:left;margin:auto;position:relative}
 .main-wrapper .widget{float:left;width:100%;position:relative;margin-bottom:15px;padding:0;border-radius:3px;-webkit-transition:box-shadow 0.25s;-moz-transition:box-shadow 0.25s;-ms-transition:box-shadow 0.25s;-o-transition:box-shadow 0.25s;transition:box-shadow 0.25s}
 .main-wrapper #HTML3{padding:10px}
-.breadcrumbs{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;background:#fff;padding:15px 15px 0 15px;margin-bottom:15px;border-radius:3px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12)}
+.breadcrumbs{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;background:#fff;padding:15px 15px 0 15px;margin-bottom:15px;border-radius:3px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.14), 0 2px 0 -2px rgba(0,0,0,0.2), 0 0 2px 0 rgba(0,0,0,0.12)}
 .breadcrumbs:hover{box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12)}
 .breadcrumbs.homepage{border-bottom:3px solid #e6ecf0;padding-bottom:10px;margin-bottom:15px}
 .breadcrumbs ul,.breadcrumbs .search-label{font-size:16px;color:#484848;padding-bottom:10px;margin-bottom:15px;border-bottom:3px solid #e6ecf0;position:relative;display:block}
@@ -163,7 +172,7 @@ svg{fill:hsl(0,0%,53.3%)}
 .breadcrumbs h3 span{background:#fff;position:relative;padding-right:15px;color:#049372}
 .breadcrumbs .search-label a,.breadcrumbs .search-label span{border-bottom:3px solid #00a26d;padding:0 0 10px 0}
 .breadcrumbs ul li:before,.breadcrumbs .search-label a:after{font-family:FontAwesome;content:'\f105';font-size:14px;font-style:normal;font-weight:normal;padding:0 5px}
-.breadcrumbs ul li:last-child a{border-bottom:3px solid #00a26d;padding:0 0 10px 0}
+.breadcrumbs ul li:last-child a {border-bottom:3px solid #00a26d;padding:0 0 10px 0}
 .breadcrumbs ul li:first-child:before{content:unset}
 .breadcrumbs .title{display:block;position:relative;margin-bottom:13px;padding-bottom:10px;border-bottom:3px solid #e6ecf0;font-size:16px}
 .breadcrumbs .title span{border-bottom:3px solid #00a26d;padding-bottom:10px}
@@ -199,16 +208,16 @@ h1.post-title{margin-bottom:15px;font-size:x-large;font-weight:normal;text-align
 .post-body,.post-comment a,.title-secondary a{color:$(posts.text.color)}
 .post{margin:0;padding:0}
 .post-outer{margin-bottom:15px;background-color:#ffffff;padding:15px;-webkit-border-radius:3px;-moz-border-radius:4px;border-radius:4px;overflow:hidden;position:relative;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12);-moz-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12);box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12);-webkit-transition:box-shadow 0.25s;-moz-transition:box-shadow 0.25s;-ms-transition:box-shadow 0.25s;-o-transition:box-shadow 0.25s;transition:box-shadow 0.25s}
-.post-outer:hover{-webkit-box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12);-moz-box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12);box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12)}
+.post-outer:hover{-webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 12px 0 rgba(0, 0, 0, 0.12);-moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 12px 0 rgba(0, 0, 0, 0.12);box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 12px 0 rgba(0, 0, 0, 0.12)}
 .post-body{font:16px Roboto,"Helvetica Neue",Helvetica,sans-serif;line-height:1.6em;display:block;overflow:hidden;transition:all .3s ease-out 0s}
-.post-body br{content:"";display:block;padding:2px}
-.post-body h4{font:700 17px Roboto,sans-serif;margin:5px 0}
+.post-body br{content:"";display:block;padding:2px;}
+.post-body h4{font:700 17px Roboto,sans-serif;margin: 5px 0}
 .post-body h3.title{display:block;padding-top:15px;font:16px Roboto,"Helvetica Neue",Helvetica,sans-serif;line-height:1.6em;font-weight:500;transition:all .3s ease-out 0s}
-.post-body h3{font:500 18px Roboto,sans-serif;text-align:left;color:#00A16D;margin:10px 0;letter-spacing:.3px;text-transform:uppercase;display:table;padding:0 0 2px;border-bottom:1px solid}
-.post-body h2{font:500 20px Roboto,sans-serif;text-transform:uppercase;margin:10px 0;color:#00A16D;text-align:center;border-top:1px solid #eee;padding:7px 0;transition:.4s;-webkit-transition:.4s;position:relative}
-.post-body h2:after{content:'';position:absolute;width:5%;height:1px;background:#00A16D;bottom:0;left:50%;transform:translate(-50%,0);transition:1s;-webkit-transition:1s}
-.post-body h2:hover{border-top:1px solid #00A16D;letter-spacing:1px}
-.post-body h2:hover:after{width:100%;background:#fff}
+.post-body h3{font:500 18px Roboto,sans-serif;text-align:left;color:#00A16D;margin:10px 0;letter-spacing:.3px;text-transform:uppercase;display:table;padding:0 0 2px;border-bottom:1px solid;}
+.post-body h2{font:500 20px Roboto,sans-serif;text-transform:uppercase;margin:10px 0;color:#00A16D;text-align:center;border-top:1px solid #eee;padding:7px 0;transition:.4s;-webkit-transition:.4s;position:relative;}
+.post-body h2:after{content:'';position:absolute;width:5%;height:1px;background:#00A16D;bottom:0;left:50%;transform:translate(-50%,0);transition:1s;-webkit-transition:1s;}
+.post-body h2:hover{border-top:1px solid #00A16D;letter-spacing:1px;}
+.post-body h2:hover:after{width:100%;background:#fff;}
 .post-header{color:$(body.text.color);font-size:12px}
 .post-author svg{height:15px;width:15px;min-width:15px;max-width:15px;margin-bottom:2px;fill:#5890ff}
 .post-title a:hover,.title-secondary a:hover{color:$(body.link.color)}
@@ -227,16 +236,16 @@ h1.post-title{margin-bottom:15px;font-size:x-large;font-weight:normal;text-align
 .tooltip.right{padding:0 5px;margin-left:3px}
 .tooltip.bottom{padding:5px 0;margin-top:3px}
 .tooltip.left{padding:0 5px;margin-left:-3px}
-.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:rgba(0,0,0,0.89);border-radius:4px}
+.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:rgba(0, 0, 0, 0.89);border-radius:4px}
 .tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}
-.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:rgba(0,0,0,0.89)}
-.tooltip.top-left .tooltip-arrow{right:5px;bottom:0;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:rgba(0,0,0,0.89)}
-.tooltip.top-right .tooltip-arrow{bottom:0;left:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:rgba(0,0,0,0.89)}
-.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:rgba(0,0,0,0.89)}
-.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:rgba(0,0,0,0.89)}
-.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:rgba(0,0,0,0.89)}
-.tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:rgba(0,0,0,0.89)}
-.tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:rgba(0,0,0,0.89)}
+.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:rgba(0, 0, 0, 0.89)}
+.tooltip.top-left .tooltip-arrow{right:5px;bottom:0;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:rgba(0, 0, 0, 0.89)}
+.tooltip.top-right .tooltip-arrow{bottom:0;left:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:rgba(0, 0, 0, 0.89)}
+.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:rgba(0, 0, 0, 0.89)}
+.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:rgba(0, 0, 0, 0.89)}
+.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:rgba(0, 0, 0, 0.89)}
+.tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:rgba(0, 0, 0, 0.89)}
+.tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:rgba(0, 0, 0, 0.89)}
 .item-meta{padding-top:5px;padding-left:5px;display:block;font:15px Roboto,"Helvetica Neue",Helvetica,sans-serif;color:$(body.text.color);transition:all .3s ease-out 0s;white-space:nowrap;overflow-x:hidden;text-overflow:ellipsis}
 .post-body a{color:$(body.link.color)}
 .post-body a:hover{color:$(body.link.hover.color)}
@@ -249,11 +258,11 @@ h1.post-title{margin-bottom:15px;font-size:x-large;font-weight:normal;text-align
 .post-body .video-container{position:relative;padding-bottom:56.25%}
 .post-body .video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 .post-body .tr-caption{font-size:15px;color:#777;line-height:1.6;padding:5px 0 10px 0;text-align:center}
-.post blockquote,.post code{-webkit-user-select:all!important;-moz-user-select:all!important;-ms-user-select:all!important;user-select:all!important}
-.post blockquote{background:#eee;margin:10px 0;text-align:left!important;padding:12px;transition:.3s;font:400 17px Monospace;letter-spacing:0;line-height:1.5;color:#555;max-height:300px;overflow:auto;border-left:3px solid #008d4c}
-.post blockquote::-webkit-scrollbar{width:5px;height:6px}
-.post blockquote::-webkit-scrollbar-thumb{background:#ddd}
-.post code{display:inline-block;position:relative;color:#4267B2;margin:0;transition:all .3s;border-radius:4px;font:400 17px Monospace;background:#EDEDED;padding:0 5px}
+.post blockquote,.post code{-webkit-user-select:all!important;-moz-user-select:all!important;-ms-user-select:all!important;user-select:all!important;}
+.post blockquote{background:#eee;margin:10px 0;text-align:left!important;padding:12px;transition:.3s;font:400 17px Monospace;letter-spacing:0;line-height:1.5;color:#555;max-height:300px;overflow:auto;border-left:3px solid #008d4c;}
+.post blockquote::-webkit-scrollbar{width:5px;height:6px;}
+.post blockquote::-webkit-scrollbar-thumb{background:#ddd;}
+.post code{display:inline-block;position:relative;color:#4267B2;margin:0;transition:all .3s;border-radius:4px;font:400 17px Monospace;background:#EDEDED;padding:0 5px;}
 .post-footer{position:relative;width:100%}
 .social-sharing-widgets{display:block;position:relative;margin:15px 0}
 .ma-share{cursor:pointer}
@@ -313,13 +322,13 @@ input#ContactForm1_contact-form-submit:hover,.buttonBlue:hover{box-shadow:0 8px 
 .btn-popup-container .btn-popup-close::before,.btn-popup-container .btn-popup-close::after{content:'';position:absolute;top:12px;width:14px;height:2px;background-color:$(body.text.color)}
 .btn-popup-container .btn-popup-close::before{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);left:8px}
 .btn-popup-container .btn-popup-close::after{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);right:8px}
-#related-posts{clear:both;float:left;width:100%;background:#fff;padding:15px 15px 0 15px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12);border-radius:3px}
+#related-posts{clear:both;float:left;width:100%;background:#fff;padding:15px 15px 0 15px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.14), 0 2px 0 -2px rgba(0,0,0,0.2), 0 0 2px 0 rgba(0,0,0,0.12);border-radius:3px}
 #related-posts:hover{box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12)}
 #related-posts ul li{width:33.33%;display:inline-block;vertical-align:top;position:relative;padding:0 7.5px 15px 7.5px}
 #related-posts ul{margin:0 -7.5px}
-#related-posts .post-thumb{width:100%;height:auto;float:left;overflow:hidden;margin-bottom:10px;;transition:.5s;display:flex}
+#related-posts .post-thumb{width:100%;height:auto;float:left;overflow:hidden;margin-bottom:10px;;transition: .5s;display:flex}
 #related-posts .post-thumb img{width:100%;height:100%;display:flex;border-radius:4px}
-#related-posts .post-title{color:#191919;font:16px Roboto,sans-serif;line-height:1.5;float:left;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;cursor:pointer}
+#related-posts .post-title{color:#191919;font:16px Roboto,sans-serif;line-height:1.5;float:left;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;cursor:pointer}
 #related-posts h3{font-size:16px;font-weight:bold;text-transform:uppercase;margin-bottom:15px;position:relative}
 #related-posts h3:before{content:"";position:absolute;width:100%;height:3px;bottom:9px;background-image:-moz-linear-gradient(left,#00a284 #489e8e);background-image:-webkit-gradient(linear,left top,right top,from(#00a284),to(#489e8e));background-image:-webkit-linear-gradient(left,#00a284,#489e8e);background-image:-o-linear-gradient(left,#00a284,#489e8e)}
 #related-posts h3 span{background:#ffffff;position:relative;padding-right:15px;color:#049372}
@@ -348,7 +357,7 @@ input#ContactForm1_contact-form-submit:hover,.buttonBlue:hover{box-shadow:0 8px 
 .PopularPosts .item-date{display:table;font-size:14px;padding-top:10px}
 .PopularPosts .item-date:before{font-family:FontAwesome;content:'\f044';font-size:14px;font-style:normal;font-weight:normal;color:hsl(0,0%,53.3%)}
 .PopularPosts .item-snippet{display:table;padding-top:10px}
-.PopularPosts .item-snippet p{display:none;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;font-size:15px;line-height:1.4}
+.PopularPosts .item-snippet p{display:none;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;font-size:15px;line-height:1.4;}
 .copy-text,.down,nav select{cursor:pointer}
 nav select{width:96%;margin:10px 0 10px 18px;padding:6px;background:#f9f9f9;border:1px solid #e3e3e3;color:#777}
 abbr[title],acronym[title]{text-decoration:none;max-width:20%;cursor:pointer}
@@ -395,7 +404,7 @@ pre.code{display:block;font:16px Roboto,"Helvetica Neue",Helvetica,sans-serif;co
 #footer .contact{float:right;width:40%}
 #footer a{color:#d8d8d8}
 #footer a:hover{color:#00a26d}
-.Footer_legal{float:left;background-color:rgba(19,19,19,0.97);width:100%}
+.Footer_legal{float:left;background-color:rgba(19, 19, 19, 0.97);width:100%}
 .Footer_legal .main-container{justify-content:space-between;display:flex;padding:13px 0;border-top:1px solid #d8d8d8}
 .Footer_legal .copyright{color:#d8d8d8;font-size:14px}
 .Footer_legal .copyright span{line-height:25px}
@@ -508,7 +517,7 @@ a.postviews:hover,a.tt_tg:hover,a.comment-count:hover,.post-icons:hover{backgrou
 .avatar-image-container img{background:url(//4.bp.blogspot.com/-9TaHwQSt4ps/WfdMSWzDpAI/AAAAAAAAQgE/lwRBOH-oCWQVR-UDuoXZGFHUc4A1B99cQCLcBGAs/s1600/no-image.png) no-repeat center}
 .avatar-image-container svg,.comment .avatar-image-container .avatar-icon{border-radius:50%;border:solid 1px #1a73e8;box-sizing:border-box;fill:hsl(0,0%,53.3%);height:40px;margin:0;padding:7px;width:40px}
 .comments .comments-content .icon.blog-author:before{font-family:fontawesome;content:"\f00c";background:#5890ff;display:inline-block;color:#ffffff;border-radius:50%;margin-left:5px;font-size:10px;font-style:normal;font-weight:normal;height:15px;line-height:14px;overflow:hidden;text-align:center;width:15px;vertical-align:-2px}
-#comments .comment .comment-actions a:before{content:'\f112';font-family:fontawesome;font-weight:700;margin:0 5px 0 0}
+#comments .comment .comment-actions a:before{content:'\f112';font-family:fontawesome;font-weight:700;margin:0 5px 0 0;}
 #comments .comment .comment-block{background:#f7f7f7;border-radius:3px;margin:0 0 0 55px;padding:8px 15px;display:inline-block;font-size:medium;font-weight:normal;line-height:1.5;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12);-moz-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12);box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 2px 0 -2px rgba(0,0,0,0.2),0 0 2px 0 rgba(0,0,0,0.12);-webkit-transition:box-shadow 0.25s;-moz-transition:box-shadow 0.25s;-ms-transition:box-shadow 0.25s;-o-transition:box-shadow 0.25s;transition:box-shadow 0.25s}
 #comments .comment .comment-block:hover{-webkit-box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12);-moz-box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12);box-shadow:0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 12px 0 rgba(0,0,0,0.12)}
 #comments .comment .comment-block:before{content:"";border-left:5px solid transparent;border-right:20px solid #f7f7f7;border-bottom:20px solid transparent;position:absolute;top:25px;left:30px}
@@ -517,7 +526,7 @@ a.postviews:hover,a.tt_tg:hover,a.comment-count:hover,.post-icons:hover{backgrou
 #comments .comment .comment-actions{font-size:12px;font-weight:normal;text-transform:uppercase}
 #comments .comment .comment-actions a{color:#777;font-weight:bold}
 #comments .comment .comment-header .datetime a,#comments .comment .comment-footer .comment-timestamp a,#comments .comment .comment-content{color:#484848}
-#comments .continue,#comments .comment .continue{display:none}
+#comments .continue,#comments .comment .continue {display:none}
 #comments .comment .continue a.comment-reply{font-size:13px;color:#484848;text-transform:uppercase}
 #comments .comment .comment-actions .item-control.blog-admin{display:none}
 #comments .comment .comment-header .datetime{bottom:0;display:inline-block;font-size:13px;font-weight:normal}
@@ -551,7 +560,7 @@ a.postviews:hover,a.tt_tg:hover,a.comment-count:hover,.post-icons:hover{backgrou
 @media screen and (max-width:360px){.emoticon-label{display:none!important}h2.post_title{line-height:1.3}.post-button-container a.post-button.left{margin-bottom:5px;margin-right:1px}}
 @media screen and (max-width:320px){#Header1{display:none}h2.post_title{font-size:15px}}
 @media print{body{width:90%;height:100%;overflow:hidden;margin:0 auto;padding:0;display:block}.main-wrapper{width:100%;border:0;border-radius:unset}h1.post-title{margin-bottom:30px}#backer,.nread,.post-footer,.sidebar-wrapper,#HTML5,#HTML6,#HTML7,.post-action,.MD-StoTop,.codeHeader,.post-button-container,#footer,#backer,.breadcrumbs,.social-sharing-widgets,.Footer_legal .main-container,.reaction .total,#HTML4,#related-posts{display:none!important}pre.code{border:0;white-space:unset;overflow:hidden}}
-div.menu-top-startinhit{overflow:hidden;width:1600px;margin:auto;max-width:100%;max-height:38px;height:100%;padding:0 3%}
+div.menu-top-startinhit{overflow:hidden;width:1600px;margin:auto;max-width:100%;max-height: 38px; height:100%;padding:0 3%}
 div#menu-top-startinhit{background:rgba(0,0,0,.1)}
 div.menu-top-startinhit left{float:left}
 right{float:right}
@@ -624,9 +633,9 @@ input[type=checkbox]:active+.toggle i{width:35px}
 /* dark mod */
 body.night,.night #backer .list-label-widget-content .copyright,.night .gb_wb,.night .recent-comments .rc_block,.night #comments .comment .comment-block,.night .lien-ket-blogg li a{background-color:#1f1f1f}
 .night #related-posts,.night .post-outer,.night .breadcrumbs,.night .sidebar-wrapper .widget,.night #backer .list-label-widget-content,.night .dds-menu,.night .tb-menu,.night .au-menu,.night #footer,.night #banner .widget,.night #backer{background-color:#292929}
-.night h2.post_title a,.night .PopularPosts .item-title a,.night #banner .post_title a,.night #backer .list-label-widget-content li a,.night #backer .list-label-widget-content .copyright a,.night .au-menu ul li a,.night .dds-menu ul li a,.night .recent-comments .rc_user a,.night .gb_wb a,.night #comments .comment .comment-header .user,#comments .comment .comment-header .user a,.night .post-header,.night .nread a,.night .breadcrumbs a,.night .post-body,.night .post-comment a,.night .title-secondary a,.night .about-author .name,.night #related-posts .post-title,.night .breadcrumbs ul li:before,.night .breadcrumbs .search-label a:after,.night .breadcrumbs .search-label a,.night .breadcrumbs .search-label span,.night .lien-ket-blogg a,.night .btn-popup-container h2,.night #backer .search input,.night .ok,.night .show-comment,.night .hide-comment{color:#ddd}
+.night h2.post_title a,.night .PopularPosts .item-title a,.night #banner .post_title a,.night #backer .list-label-widget-content li a,.night #backer .list-label-widget-content .copyright a,.night .au-menu ul li a,.night .dds-menu ul li a,.night .recent-comments .rc_user a,.night .gb_wb a,.night #comments .comment .comment-header .user, #comments .comment .comment-header .user a,.night .post-header,.night .nread a,.night .breadcrumbs a,.night .post-body,.night .post-comment a,.night .title-secondary a,.night .about-author .name,.night #related-posts .post-title,.night .breadcrumbs ul li:before,.night .breadcrumbs .search-label a:after,.night .breadcrumbs .search-label a,.night .breadcrumbs .search-label span,.night .lien-ket-blogg a,.night .btn-popup-container h2,.night #backer .search input,.night .ok,.night .show-comment,.night .hide-comment{color:#ddd}
 body.night,.night .post_meta a,.night .post_meta span,.night #comments .comment .comment-header .datetime a,.night #comments .comment .comment-footer .comment-timestamp a,.night #comments .comment .comment-content,.night #comments .comment .comment-actions a,.night .post_meta .post_date:before{color:#bbb}
-.night .recent-comments .rc_block:before{border-color:rgb(31,31,31) rgb(31,31,31) transparent transparent}
+.night .recent-comments .rc_block:before{border-color:rgb(31, 31, 31) rgb(31, 31, 31) transparent transparent;}
 .night .recent-comments .rc_block{border:0}
 .night #comments .comment .comment-block:before{border-right:20px solid #1f1f1f}
 .night .post-button-container a.post-button,.night .emoticon-label,.night .keywords a,.night .comments-label,.night .reaction-hover .reaction-label{background-color:#f7f7f7}
@@ -639,8 +648,8 @@ body.night,.night .post_meta a,.night .post_meta span,.night #comments .comment 
 .night .table > tbody > tr:nth-of-type(odd){background-color:#252525}
 .night .table > thead > tr > th{background-color:#555}
 .night #backer .list-label-widget-content li:hover,.night .dds-menu ul li a:hover,.night .au-menu ul li:hover{background:rgba(255,255,255,.1)}
-.night #backer .list-label-widget-content .list-item ul{border-bottom:1px solid rgba(255,255,255,.1)}
-.night .show-posts .load-posts,.night .load-more a{background:rgba(0,0,0,0.32);color:#ddd;border:1px solid #1b1b1b}
+.night #backer .list-label-widget-content .list-item ul{border-bottom:1px solid rgba(255, 255, 255, .1)}
+.night .show-posts .load-posts,.night .load-more a{background:rgba(0, 0, 0, 0.32);color:#ddd;border:1px solid #1b1b1b}
 .night .post-body h2{color:#bdbf70;border-top:1px solid #484848}
 .night .post-body h2:after{background:#bdbf70}
 .night .post-body h2:hover{border-top:1px solid #bdbf70}
@@ -650,8 +659,8 @@ body.night,.night .post_meta a,.night .post_meta span,.night #comments .comment 
 .night .blanterinput input:focus~label,.night .blanterinput input:valid~label,.night .blanterinput textarea:focus~label,.night .blanterinput textarea:valid~label{color:#bdbf70}
 .night input#ContactForm1_contact-form-submit,.night .buttonBlue{color:#ddd;background:#bdbf70}
 .night .comments .svg-24{fill:#ddd}
-.ok{padding:10px 15px;font-size:14px;line-height:1.45;color:#484848}
-.ok br{display:table;padding:3px 0;content:''}
+.ok{padding: 10px 15px; font-size: 14px; line-height: 1.45; color: #484848}
+.ok br{display: table; padding: 3px 0; content: ''}
 /* Grid mod */
 input[type=checkbox]{display:none}
 .toggle-list{position:relative;float:right;width:41px;height:0;top:0;left:5px}
