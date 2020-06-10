@@ -15,7 +15,7 @@ body.overflow{overflow-y:hidden}
 .header-wrapper{display:inline-block;float:left;width:100%;-moz-box-sizing:-webkit-border-box;box-sizing:border-box}
 .main-container{position:relative;display:block;margin:auto;padding:0;max-width:1200px}
 #backer .main-container{max-width:1600px;padding:0 5%}
-#backer{background:#00a26d;display:inline-block;position:fixed;top:0;left:0;right:0;z-index:999;box-shadow:0 3px 8px rgba(0,0,0,.2);transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear;height:87px}
+#backer{background: #FF5722;background-image: linear-gradient(50deg,#6400f5,#fb0035);display:inline-block;position:fixed;top:0;left:0;right:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.2);transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear;height:87px}
 #menu-top-startinhit-2{display:inline-block;position:fixed;left:0;right:0;height:50px;z-index:9;transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear}
 @media screen and (min-width:801px){#backer.fixed{top:-38px}#backer.default{top:0}}
 .top{padding-top:105px}
