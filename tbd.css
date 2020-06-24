@@ -15,7 +15,7 @@ body.overflow{overflow-y:hidden}
 .header-wrapper{display:inline-block;float:left;width:100%;-moz-box-sizing:-webkit-border-box;box-sizing:border-box}
 .main-container{position:relative;display:block;margin:auto;padding:0;max-width:1200px}
 #backer .main-container{max-width:1600px;padding:0 5%}
-#backer{background:#00a26d;display:inline-block;position:fixed;top:0;left:0;right:0;z-index:999;box-shadow:0 3px 8px rgba(0,0,0,.2);transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear;height:87px}
+#backer{background: #FF5722;background-image: linear-gradient(50deg,#6400f5,#fb0035);display:inline-block;position:fixed;top:0;left:0;right:0;z-index:999;box-shadow:0 2px 8px rgba(0,0,0,.2);transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear;height:87px}
 #menu-top-startinhit-2{display:inline-block;position:fixed;left:0;right:0;height:50px;z-index:9;transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear}
 @media screen and (min-width:801px){#backer.fixed{top:-38px}#backer.default{top:0}}
 .top{padding-top:105px}
@@ -161,9 +161,9 @@ h1.post-title{margin-bottom:15px;font-size:x-large;font-weight:normal;text-align
 .post-body h4{font:700 18px Roboto,sans-serif;margin:10px 0;color:#F39C12}
 .post-body h3.title{display:block;padding-top:15px;font:16px Roboto,"Helvetica Neue",Helvetica,sans-serif;line-height:1.6em;font-weight:500;transition:all .3s ease-out 0s}
 .post-body h3{font:500 18px Roboto,sans-serif;text-align:left;color:#00A16D;margin:10px 0;letter-spacing:.3px;text-transform:uppercase;display:table;padding:0 0 2px;border-bottom:1px solid}
-.post-body h2{font:500 20px Roboto,sans-serif;text-transform:uppercase;margin:10px 0;color:#00A16D;text-align:center;border-top:1px solid #eee;padding:7px 0;transition:.4s;-webkit-transition:.4s;position:relative}
+.post-body h2{font:500 20px Roboto,sans-serif;text-transform:uppercase;margin:10px 0;color:#FF0624;text-align:center;border-top:1px solid #eee;padding:7px 0;transition:.4s;-webkit-transition:.4s;position:relative}
 .post-body h2:after{content:'';position:absolute;width:5%;height:1px;background:#00A16D;bottom:0;left:50%;transform:translate(-50%,0);transition:1s;-webkit-transition:1s}
-.post-body h2:hover{border-top:1px solid #00A16D;letter-spacing:1px}
+.post-body h2:hover{border-top:1px solid #FF0624;letter-spacing:1px}
 .post-body h2:hover:after{width:100%;background:#fff}
 .post-header{color:$(body.text.color);font-size:12px}
 .post-author svg{height:15px;width:15px;min-width:15px;max-width:15px;margin-bottom:2px;fill:#5890ff}
@@ -598,7 +598,7 @@ input[type=checkbox]:active+.toggle .slider:before{width:35px}
 /* dark mode */
 body.night,.night #backer .list-label-widget-content .copyright,.night .gb_wb{background-color:#121212}
 .night .lien-ket-blogg li a,.night .recent-comments .rc_block{background-color:#1d1d1d}
-.night #related-posts,.night .post-outer,.night .breadcrumbs,.night .sidebar-wrapper .widget,.night #backer .list-label-widget-content,.night .dds-menu,.night .tb-menu,.night .au-menu,.night #footer,.night #banner .widget,.night #backer{background-color:#252525}
+.night #related-posts,.night .post-outer,.night .breadcrumbs,.night .sidebar-wrapper .widget,.night #backer .list-label-widget-content,.night .dds-menu,.night .tb-menu,.night .au-menu,.night #footer,.night #banner .widget,.night #backer{background:#1d1d1d;background-image: linear-gradient(50deg,#423a3b,#242424);}
 .night h2.post_title a,.night .PopularPosts .item-title a,.night #banner .post_title a,.night #backer .list-label-widget-content li a,.night #backer .list-label-widget-content .copyright a,.night .au-menu ul li a,.night .dds-menu ul li a,.night .recent-comments .rc_user a,.night .gb_wb a,.night #comments .comment .comment-header .user,#comments .comment .comment-header .user a,.night .post-header,.night .nread a,.night .breadcrumbs a,.night .post-body,.night .post-comment a,.night .title-secondary a,.night .about-author .name,.night #related-posts .post-title,.night .breadcrumbs ul li:before,.night .breadcrumbs .search-label a:after,.night .breadcrumbs .search-label a,.night .breadcrumbs .search-label span,.night .lien-ket-blogg a,.night .btn-popup-container h2,.night #backer .search input,.night .ok,.night .show-comment,.night .hide-comment{color:#ddd}
 body.night,.night .post_meta a,.night .post_meta span,.night #comments .comment .comment-header .datetime a,.night #comments .comment .comment-footer .comment-timestamp a,.night #comments .comment .comment-content,.night .post_meta .post_date:before,.night div.menu-top-startinhit a{color:#ababab}
 .night .recent-comments .rc_block:before{border-color:rgb(29,29,29) rgb(29,29,29) transparent transparent}
@@ -778,4 +778,14 @@ z-index:9999;
 .post-body a:hover::before, .post-body a:hover::after {
 opacity:1.5;
 visibility:visible;
+}
+/* Admin Badge on Blogger Comments by TBD */
+#comments .comments-content .icon.blog-author{
+  width: 16px;
+  height: 16px;
+
+  margin-left: 5px;
+  vertical-align: -3px;
+  display: inline-block;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z' fill='%23118ff9'/%3E%3C/svg%3E") no-repeat center center;
 }
